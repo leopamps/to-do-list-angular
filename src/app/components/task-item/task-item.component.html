@@ -1,0 +1,6 @@
+<div class="task">
+    <h3>{{tarefa.descricao}}
+        <fa-icon [icon]="faTimes" [ngStyle]="{'color':'red'}" (click)="deleta(tarefa)" ></fa-icon>
+    </h3>
+    <p>{{tarefa.categoria}}</p>
+</div>

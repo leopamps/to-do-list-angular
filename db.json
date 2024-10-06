@@ -1,0 +1,16 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "descricao": "Estudar Angular",
+            "categoria": "Faculdade",
+            "concluido": false
+        },
+        {
+            "id": 2,
+            "descricao": "Recolher roupas",
+            "categoria": "Casa",
+            "concluido": false
+        }
+    ]
+}
