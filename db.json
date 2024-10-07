@@ -1,22 +1,22 @@
 {
-    "tasks": [
-      {
-        "id": "1",
-        "descricao": "Estudar Angular",
-        "categoria": "Faculdade",
-        "concluido": false
-      },
-      {
-        "id": "2",
-        "descricao": "Regar Plantas",
-        "categoria": "Casa",
-        "concluido": false
-      },
-      {
-        "id": "3",
-        "descricao": "Comprar Campari",
-        "categoria": "Reed Pill",
-        "concluido": false
-      }
-    ]
-  }
+  "tasks": [
+    {
+      "id": "1",
+      "descricao": "Estudar Angular",
+      "categoria": "Faculdade",
+      "concluido": false
+    },
+    {
+      "id": "2",
+      "descricao": "Regar Plantas",
+      "categoria": "Casa",
+      "concluido": false
+    },
+    {
+      "id": "3",
+      "descricao": "Comprar Campari",
+      "categoria": "Reed Pill",
+      "concluido": false
+    }
+  ]
+}
