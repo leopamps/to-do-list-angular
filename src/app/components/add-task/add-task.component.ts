@@ -3,11 +3,12 @@ import { FormsModule } from '@angular/forms'
 import { Tarefa } from '../../../Tarefa';
 import { faLessThanEqual } from '@fortawesome/free-solid-svg-icons';
 import { ButtonComponent } from '../button/button.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-add-task',
   standalone: true,
-  imports: [FormsModule, ButtonComponent],
+  imports: [FormsModule, ButtonComponent, CommonModule],
   templateUrl: './add-task.component.html',
   styleUrl: './add-task.component.css'
 })
@@ -18,6 +19,10 @@ export class AddTaskComponent {
   categoria: string = ''
   concluido: boolean = false
   mostraAddTask: boolean = false
+
+  AlteraVisualizacao(valor: boolean) {
+    this.mostraAddTask = valor
+  }
 
   onSubmit() { 
     if(!this.tarefa) {

@@ -1,7 +1,7 @@
 @if (mostraAddTask) {
-    <app-button text="fechar" color="red"></app-button>
+    <app-button text="fechar" color="red" (btnClick)="AlteraVisualizacao(false)"></app-button>
 }@else {
-    <app-button text="Adiciona Tarefa" color="green"></app-button>
+    <app-button text="Adiciona Tarefa" color="green" (btnClick)="AlteraVisualizacao(false)"></app-button>
 }
 
 
