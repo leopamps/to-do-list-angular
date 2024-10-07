@@ -1,0 +1,34 @@
+@if (mostraAddTask) {
+    <app-button text="fechar" color="red"></app-button>
+}@else {
+    <app-button text="Adiciona Tarefa" color="green"></app-button>
+}
+
+
+<form (ngSubmit)="onSubmit()" *ngIf="mostraAddTask" class="add-form">
+    <div>
+        <label for="text">Tarefa:</label>
+        <input 
+            type="text" 
+            name="text" 
+            class="form-control" 
+            placeholder="Adiciona Tarefa" 
+            id="text"
+            [(ngModel)]="tarefa">
+    </div>
+
+    <div class="mb-4">
+        <label for="categoria">Categria:</label>
+        <select name="categoria" id="categoria" class="form-select" [(ngModel)]="categoria" >
+            <option value="">Categorias</option>
+            <option value="casa">Casa</option>
+            <option value="faculdade">Faculdade</option>
+            <option value="trabalho">Trabalho</option>
+            <option value="pessoal">Pessoal</option>
+            <option value="lazer">Lazer</option>
+        </select>
+    </div>
+
+    <input type="submint" value="Salvar Tarefa" class="btn btn-block mb-4">
+
+</form>

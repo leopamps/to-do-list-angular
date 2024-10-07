@@ -1,6 +1,6 @@
 export interface Tarefa{
     id?: number,
-    descricao: string,
+    tarefa: string,
     categoria: string,
     concluido: boolean
 }

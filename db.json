@@ -2,20 +2,20 @@
   "tasks": [
     {
       "id": "1",
-      "descricao": "Estudar Angular",
+      "tarefa": "Estudar Angular",
       "categoria": "Faculdade",
       "concluido": false
     },
     {
       "id": "2",
-      "descricao": "Regar Plantas",
+      "tarefa": "Regar Plantas",
       "categoria": "Casa",
       "concluido": false
     },
     {
       "id": "3",
-      "descricao": "Comprar Campari",
-      "categoria": "Reed Pill",
+      "tarefa": "Comprar Campari",
+      "categoria": "Red Pill",
       "concluido": false
     }
   ]
